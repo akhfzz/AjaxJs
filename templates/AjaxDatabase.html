@@ -1,0 +1,18 @@
+<DOCTYPE HTML>
+<html>
+<head>
+	<title>Belajar ajax</title>
+	<script src="{{url_for('static', filename='js/ajax.js')}}"></script>
+</head>
+<body>
+	<form action="/db"> 
+	  <select name="kaprodi" onchange="showProdi(this.value)">
+	    <option value="">Select a customer:</option>
+	    <option value="32200">Andika Bayu</option>
+	    <option value="31461">Aris Wahyu</option>
+	    <option value="33558">Alfirna Risqi</option>
+	  </select>
+	</form><br>
+	<div id="demo"></div>
+</body>
+</html>
